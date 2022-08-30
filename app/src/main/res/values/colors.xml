@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background_color">#E1E0DE</color>
+    <color name="base_map_tile">#8BC34A</color>
+    <color name="base_map_tile_dark">#5A7836</color>
+    <color name="expansion_map_tile">#A594CF</color>
+    <color name="expansion_map_tile_dark">#605380</color>
+    <color name="center_map_tile">#0A7E7E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

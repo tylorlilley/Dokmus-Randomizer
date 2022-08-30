@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/mapTileRotation"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:height="60dp"
+            android:buttonTint="@color/base_map_tile"
+            android:checked="true"
+            android:minHeight="60dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/map_tile_rotation"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <CheckBox
+            android:id="@+id/returnOfErefel"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:height="60dp"
+            android:buttonTint="@color/expansion_map_tile"
+            android:checked="true"
+            android:minHeight="60dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/return_to_erefel_expansion"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

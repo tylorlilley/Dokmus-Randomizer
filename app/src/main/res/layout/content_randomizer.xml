@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/map1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/map2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/map3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/map4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mapCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/center_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textColor="#F3E9E9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/map5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/map6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/map7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/map8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/base_map_tile"
+                android:gravity="center"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:minWidth="80dp"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
