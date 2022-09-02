@@ -30,13 +30,29 @@
             tools:ignore="TextContrastCheck" />
 
         <CheckBox
+            android:id="@+id/twoPlayers"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:height="60dp"
+            android:buttonTint="@color/base_map_tile"
+            android:checked="false"
+            android:minHeight="60dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/two_players"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <CheckBox
             android:id="@+id/returnOfErefel"
             android:layout_width="387dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:height="60dp"
             android:buttonTint="@color/expansion_map_tile"
-            android:checked="true"
+            android:checked="false"
             android:minHeight="60dp"
             android:paddingLeft="12dp"
             android:paddingRight="12dp"

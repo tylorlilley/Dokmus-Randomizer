@@ -5,8 +5,9 @@
     <string name="title_activity_settings">Randomizer Settings</string>
     <string name="title_activity_about">About this App</string>
     <!-- App Settings -->
-    <string name="return_to_erefel_expansion">Include Return of Erefel Expansion</string>
     <string name="map_tile_rotation">Map Tile Rotation</string>
+    <string name="two_players">Limit Map to Two Player Size</string>
+    <string name="return_to_erefel_expansion">Include Return of Erefel Expansion</string>
     <!-- Scenario Text -->
     <string name="scenario_text_ice">ICE</string>
     <string name="scenario_text_sun">SUN</string>
@@ -23,8 +24,8 @@
     <string name="about_the_game">\tDokmus is a board game that was first published by Renegade Game Studios in 2016. It is designed by Mikko Punakallio. It is an abstract area control game for 2–4 players.</string>
     <string name="app_label">About the App</string>
     <string name="about_the_app1">\tThis app is used to randomize the setup for a game of Dokmus. The number corresponds to the number present on a tile in Dokmus. The letter corresponds to the front or back side of that number\'s tile, and is also printed on the tile alongside the number. The directional arrow indicates which way to rotate the tile, so that the number can be read "right side up" when looking at it in that direction.</string>
-    <string name="about_the_app2">\tDokmus can be player with two players using a modified, smaller map. If you wish to use this randomizer to play this way, simply ignore the bottom three tiles and use only the five tiles from the first two rows of the randomizer to set up your game.</string>
-    <string name="settings_label">About the Settings</string>
+     <string name="settings_label">About the Settings</string>
     <string name="about_the_settings1">\tIf you enable the Map Tile Rotation setting, instead of a printed arrow, the map tile on the app will rotate to face the direction that the arrow would have indicated. Some people may find it easier to set up this way.</string>
-    <string name="about_the_settings2">\tIf you enable the Return of Erefel expansion, the additional map tiles from that expansion will be added to the mix. They will be color-coded purple to easily tell which tiles will be coming from the expansion, but the tile number given will still uniquely identify them if you\'ve mixed your expansion tiles together with the original game\'s. Additionally, one of the four possible scenarios will be chosen at random and displayed on the center tile for use in this game.</string>
-</resources>
+    <string name="about_the_settings2">\tDokmus can be player with two players using a modified, smaller map. If you wish to use this randomizer to play this way, you can enabled the Limit Map to Two Player Size option.</string>
+    <string name="about_the_settings3">\tIf you enable the Return of Erefel expansion, the additional map tiles from that expansion will be added to the mix. They will be color-coded purple to easily tell which tiles will be coming from the expansion, but the tile number given will still uniquely identify them if you\'ve mixed your expansion tiles together with the original game\'s. Additionally, one of the four possible scenarios will be chosen at random and displayed on the center tile for use in this game.</string>
+ </resources>

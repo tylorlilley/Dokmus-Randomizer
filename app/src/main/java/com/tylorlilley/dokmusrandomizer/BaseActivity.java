@@ -17,6 +17,13 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         String itemTitle = item.getTitle().toString();
         String settingsTitle = getString(R.string.action_settings);
@@ -31,13 +38,6 @@ public class BaseActivity extends AppCompatActivity {
         else {
             selectedActivity(RandomizerActivity.class);
         }
-        return true;
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
         return true;
     }
 

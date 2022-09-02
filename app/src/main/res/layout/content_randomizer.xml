@@ -12,6 +12,7 @@
         android:gravity="center">
 
         <TableRow
+            android:id="@+id/mapTilesRow1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
@@ -67,6 +68,7 @@
         </TableRow>
 
         <TableRow
+            android:id="@+id/mapTilesRow2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
@@ -123,6 +125,7 @@
         </TableRow>
 
         <TableRow
+            android:id="@+id/mapTilesRow3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
